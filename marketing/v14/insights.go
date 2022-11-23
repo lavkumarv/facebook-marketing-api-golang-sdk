@@ -195,6 +195,7 @@ type Insight struct {
 	DeviceType                       string                 `json:"impression_device"`
 	Region                           string                 `json:"region"`
 	Country                          string                 `json:"country"`
+	Conversions                      ActionTypeValue        `json:"conversions"`
 }
 
 // GetAge returns the min and max age from the insights age field.
